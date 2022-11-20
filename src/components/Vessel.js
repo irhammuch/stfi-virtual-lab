@@ -4,7 +4,7 @@ import '../App.css';
 import { ItemTypes } from '../constant';
 import { Scene1Context } from './Scene1';
 
-function Vessel() {
+function Vessel({ index, onWaterFilled }) {
   const {
     setLiquidDegree,
     liquidLeft,
@@ -28,7 +28,7 @@ function Vessel() {
         handleLiquidTrans(left, top, '');
         setTimeout(() => {
           handleLiquidTrans(0, 0, 'transform .5s ease-in');
-        }, 1000);
+        }, 300);
       },
     }),
     [hasWater, isFilling]
@@ -48,6 +48,7 @@ function Vessel() {
         setHasWater(true);
         setIsFilling(false);
         setLiquidDegree('45');
+        onWaterFilled && onWaterFilled(index);
       }, 1000);
     }
   };
