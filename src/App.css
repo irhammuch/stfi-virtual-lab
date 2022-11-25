@@ -76,3 +76,39 @@
 .active {
   opacity: 1;
 }
+
+.glass-box {
+  position: absolute;
+  bottom: 25%;
+  left: 35%;
+  width: 45%;
+  height: 50%;
+  display: flex;
+  box-sizing: border-box;
+  padding: 0 5.75%;
+  gap: 5px;
+  justify-content: center;
+  align-items: center;
+  background-image: url('../public/assets/img/aquarium.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: 100%;
+  flex-wrap: nowrap;
+}
+
+.glass-box-tube {
+  flex: 1 1 auto;
+  height: 100%;
+}
+
+.termometer {
+  position: absolute;
+  top: 15%;
+  left: 7%;
+  width: 5%;
+  height: 70%;
+  background-image: url('../public/assets/img/termometer.png');
+  background-position: center center;
+  background-repeat: no-repeat;
+  background-size: contain;
+}

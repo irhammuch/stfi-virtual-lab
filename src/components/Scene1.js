@@ -1,4 +1,6 @@
 import React, { createContext, useRef, useState } from 'react';
+import { SceneTypes } from '../constant';
+import { useAppProvider } from './AppProvider';
 import { CustomLiquidLayer } from './CustomLiquidLayer';
 import DraggableLiquid from './DraggableLiquid';
 import Vessel from './Vessel';
@@ -21,6 +23,7 @@ const Scene1 = () => {
   const [liquidTrans, setLiquidTrans] = useState('');
   const [sceneCompleted, setSceneCompleted] = useState(false);
   const isVesselsFilled = useRef([false, false, false]);
+  const { setScene } = useAppProvider();
 
   const setVesselFilled = (index) => {
     isVesselsFilled.current[index] = true;
@@ -28,6 +31,10 @@ const Scene1 = () => {
       setTimeout(() => {
         setSceneCompleted(true);
       }, 1500);
+
+      setTimeout(() => {
+        setScene(SceneTypes.SCENE_2);
+      }, 2500);
     }
   };
 
@@ -49,7 +56,7 @@ const Scene1 = () => {
         setLiquidTrans,
       }}
     >
-      <div className="scene-1" style={sceneStyles}>
+      <div style={sceneStyles}>
         <DraggableLiquid></DraggableLiquid>
         <CustomLiquidLayer></CustomLiquidLayer>
         <div className="vessel-container">
