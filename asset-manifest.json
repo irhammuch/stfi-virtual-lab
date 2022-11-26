@@ -1,0 +1,24 @@
+{
+  "files": {
+    "main.css": "/stfi-virtual-lab/static/css/main.24863322.css",
+    "main.js": "/stfi-virtual-lab/static/js/main.92516542.js",
+    "static/js/787.c33e2da5.chunk.js": "/stfi-virtual-lab/static/js/787.c33e2da5.chunk.js",
+    "static/media/lab-bg.jpg": "/stfi-virtual-lab/static/media/lab-bg.b480d06dfbea7caef85d.jpg",
+    "static/media/aquarium.png": "/stfi-virtual-lab/static/media/aquarium.a445b430f67b0d874b8f.png",
+    "static/media/CTM.png": "/stfi-virtual-lab/static/media/CTM.87b2a35f604ac47a1b31.png",
+    "static/media/bejana.png": "/stfi-virtual-lab/static/media/bejana.e51cf1878e5a24b67025.png",
+    "static/media/tabung-liquid.png": "/stfi-virtual-lab/static/media/tabung-liquid.f006514c6a09902eef1e.png",
+    "static/media/desolusi.png": "/stfi-virtual-lab/static/media/desolusi.0e365f48398b0be1f047.png",
+    "static/media/termometer.png": "/stfi-virtual-lab/static/media/termometer.702cb957131ac778f195.png",
+    "static/media/air-bejana.png": "/stfi-virtual-lab/static/media/air-bejana.f6d3f6c054b834ebb3bf.png",
+    "static/media/termometer-2.png": "/stfi-virtual-lab/static/media/termometer-2.8b813786664243e8c377.png",
+    "index.html": "/stfi-virtual-lab/index.html",
+    "main.24863322.css.map": "/stfi-virtual-lab/static/css/main.24863322.css.map",
+    "main.92516542.js.map": "/stfi-virtual-lab/static/js/main.92516542.js.map",
+    "787.c33e2da5.chunk.js.map": "/stfi-virtual-lab/static/js/787.c33e2da5.chunk.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.24863322.css",
+    "static/js/main.92516542.js"
+  ]
+}
