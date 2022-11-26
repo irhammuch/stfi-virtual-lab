@@ -161,3 +161,61 @@
     opacity: 0;
   }
 }
+
+.vessel-full-container {
+  width: 200px;
+  height: 450px;
+  position: absolute;
+  top: 50%;
+  left: 50%;
+  transform: translate(-50%, -50%);
+}
+
+.vessel-full {
+  width: 100%;
+  height: 100%;
+  background-image: url('../public/assets/img/desolusi.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center bottom;
+  bottom: 0;
+  left: 0;
+  position: absolute;
+  z-index: 2;
+}
+
+.termometer-full {
+  width: 35px;
+  height: 200px;
+  background-image: url('../public/assets/img/termometer-2.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center top;
+  position: absolute;
+  top: 80px;
+  left: 30px;
+}
+
+.ctm {
+  width: 50px;
+  height: 50px;
+  background-image: url('../public/assets/img/CTM.png');
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-position: center;
+  top: 50px;
+  left: 100px;
+  position: absolute;
+}
+
+.ctm-drop-target {
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  position: absolute;
+  top: 20%;
+  left: 50%;
+  transform: translateX(-50%);
+  z-index: 3;
+  border: 3px dashed #FFE600;
+}

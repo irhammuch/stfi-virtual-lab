@@ -2,6 +2,7 @@ import { createContext, useContext, useState } from 'react';
 import { SceneTypes } from '../constant';
 import Scene1 from './Scene1';
 import Scene2 from './Scene2';
+import Scene3 from './Scene3';
 
 const AppContext = createContext({
   scene: null,
@@ -19,9 +20,11 @@ const AppProvider = () => {
     console.log('curren_scene', scene);
     switch (scene) {
       case SceneTypes.SCENE_1:
-        return <Scene1></Scene1>;
+        return <Scene1 />;
       case SceneTypes.SCENE_2:
-        return <Scene2></Scene2>;
+        return <Scene2 />;
+      case SceneTypes.SCENE_3:
+        return <Scene3 />;
       default:
         return null;
     }

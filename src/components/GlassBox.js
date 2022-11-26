@@ -2,12 +2,15 @@ import '../App.css';
 import InputSlider from 'react-input-slider';
 import { useContext, useRef, useState } from 'react';
 import { Scene2Context } from './Scene2';
+import { useAppProvider } from './AppProvider';
+import { SceneTypes } from '../constant';
 
 const GlassBox = () => {
   const [temperature, setTemperature] = useState(30);
   const temperatureRef = useRef(30);
   const [isFinished, setIsFinished] = useState(false);
   const { setSceneCompleted } = useContext(Scene2Context);
+  const { setScene } = useAppProvider();
 
   const handleTemperatureChange = (temp) => {
     setTemperature(temp);
@@ -21,6 +24,10 @@ const GlassBox = () => {
         setTimeout(() => {
           setSceneCompleted(true);
         }, 2000);
+
+        setTimeout(() => {
+          setScene(SceneTypes.SCENE_3);
+        }, 3000);
       }
     }, 500);
   };
