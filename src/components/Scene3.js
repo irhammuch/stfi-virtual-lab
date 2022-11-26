@@ -1,12 +1,11 @@
 import { createContext, useState } from 'react';
-import GlassBox from './GlassBox';
 
-export const Scene2Context = createContext({
+export const Scene3Context = createContext({
   sceneCompleted: false,
   setSceneCompleted: (_) => {},
 });
 
-const Scene2 = () => {
+const Scene3 = () => {
   const [sceneCompleted, setSceneCompleted] = useState(false);
 
   const sceneStyles = {
@@ -16,11 +15,9 @@ const Scene2 = () => {
   };
 
   return (
-    <Scene2Context.Provider value={{ sceneCompleted, setSceneCompleted }}>
-      <div style={sceneStyles}>
-        <GlassBox />
-      </div>
-    </Scene2Context.Provider>
+    <Scene3Context.Provider value={{ sceneCompleted, setSceneCompleted }}>
+      <div style={sceneStyles}></div>
+    </Scene3Context.Provider>
   );
 };
-export default Scene2;
+export default Scene3;

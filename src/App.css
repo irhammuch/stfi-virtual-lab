@@ -103,12 +103,61 @@
 
 .termometer {
   position: absolute;
-  top: 15%;
+  top: 50%;
   left: 7%;
-  width: 5%;
-  height: 70%;
+  width: 50px;
+  height: 400px;
+  transform: translateY(-50%);
   background-image: url('../public/assets/img/termometer.png');
   background-position: center center;
   background-repeat: no-repeat;
   background-size: contain;
+}
+
+.termometer-container {
+  display: flex;
+  justify-content: center;
+  height: 100%;
+  width: 100%;
+  box-sizing: border-box;
+}
+
+
+.termometer-label {
+  position: absolute;
+  display: block;
+  top: 50%;
+  left: 7%;
+  height: 400px;
+  transform: translate(70px, -50%);
+  display: flex;
+  align-items: center;
+  padding-bottom: 50px;
+  box-sizing: border-box;
+  color:#FFE600;
+  font-size: 24px;
+  font-weight: 500;
+}
+
+.scene2-finish-label {
+  position: absolute;
+  bottom: 25%;
+  left: 35%;
+  width: 45%;
+  height: 50%;
+  font-size: 48px;
+  font-weight: 700;
+  line-height: 75px;
+  color: #FFE600;
+  transform: translateY(-100px);
+}
+
+.blink {
+  animation: blinker 1s linear infinite;
+}
+
+@keyframes blinker {
+  50% {
+    opacity: 0;
+  }
 }
