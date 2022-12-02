@@ -1,24 +1,33 @@
 {
   "files": {
-    "main.css": "/stfi-virtual-lab/static/css/main.24863322.css",
-    "main.js": "/stfi-virtual-lab/static/js/main.92516542.js",
+    "main.css": "/stfi-virtual-lab/static/css/main.74f68f23.css",
+    "main.js": "/stfi-virtual-lab/static/js/main.3b30d543.js",
     "static/js/787.c33e2da5.chunk.js": "/stfi-virtual-lab/static/js/787.c33e2da5.chunk.js",
-    "static/media/lab-bg.jpg": "/stfi-virtual-lab/static/media/lab-bg.b480d06dfbea7caef85d.jpg",
-    "static/media/aquarium.png": "/stfi-virtual-lab/static/media/aquarium.a445b430f67b0d874b8f.png",
-    "static/media/CTM.png": "/stfi-virtual-lab/static/media/CTM.87b2a35f604ac47a1b31.png",
-    "static/media/bejana.png": "/stfi-virtual-lab/static/media/bejana.e51cf1878e5a24b67025.png",
-    "static/media/tabung-liquid.png": "/stfi-virtual-lab/static/media/tabung-liquid.f006514c6a09902eef1e.png",
-    "static/media/desolusi.png": "/stfi-virtual-lab/static/media/desolusi.0e365f48398b0be1f047.png",
-    "static/media/termometer.png": "/stfi-virtual-lab/static/media/termometer.702cb957131ac778f195.png",
-    "static/media/air-bejana.png": "/stfi-virtual-lab/static/media/air-bejana.f6d3f6c054b834ebb3bf.png",
-    "static/media/termometer-2.png": "/stfi-virtual-lab/static/media/termometer-2.8b813786664243e8c377.png",
+    "static/media/lab-bg.webp": "/stfi-virtual-lab/static/media/lab-bg.220520362a1192b458dc.webp",
+    "static/media/mesin.webp": "/stfi-virtual-lab/static/media/mesin.aebb181a5ee6cdf3e67c.webp",
+    "static/media/desolusi.webp": "/stfi-virtual-lab/static/media/desolusi.f7e7394504cf16b249f4.webp",
+    "static/media/bejana.webp": "/stfi-virtual-lab/static/media/bejana.fe8d986687aaa9d0ef03.webp",
+    "static/media/tabung-liquid-2.webp": "/stfi-virtual-lab/static/media/tabung-liquid-2.16a2406911e14c0b03b2.webp",
+    "static/media/aquarium.webp": "/stfi-virtual-lab/static/media/aquarium.1b286b2d1715777e59f1.webp",
+    "static/media/calculator.webp": "/stfi-virtual-lab/static/media/calculator.577b7e84bbff1e828f43.webp",
+    "static/media/air-bejana.webp": "/stfi-virtual-lab/static/media/air-bejana.b412601c838d95d5945a.webp",
+    "static/media/termometer.webp": "/stfi-virtual-lab/static/media/termometer.272da701afed4e13a562.webp",
+    "static/media/screen.webp": "/stfi-virtual-lab/static/media/screen.220346c76b5bfba3bab3.webp",
+    "static/media/CTM.webp": "/stfi-virtual-lab/static/media/CTM.eab4838ae548fd3a3e50.webp",
+    "static/media/termometer-2.webp": "/stfi-virtual-lab/static/media/termometer-2.427fd0b522f6bea0aa75.webp",
+    "static/media/botol-sample.webp": "/stfi-virtual-lab/static/media/botol-sample.80e171dfb31898c71e26.webp",
+    "static/media/spelt.webp": "/stfi-virtual-lab/static/media/spelt.2590114b18cca03464f0.webp",
+    "static/media/tutup-spelt.webp": "/stfi-virtual-lab/static/media/tutup-spelt.7075d895c31b13d99451.webp",
+    "static/media/tutup-botol.webp": "/stfi-virtual-lab/static/media/tutup-botol.d92eb3bfef0f16944c6e.webp",
     "index.html": "/stfi-virtual-lab/index.html",
-    "main.24863322.css.map": "/stfi-virtual-lab/static/css/main.24863322.css.map",
-    "main.92516542.js.map": "/stfi-virtual-lab/static/js/main.92516542.js.map",
+    "static/media/baling.webp": "/stfi-virtual-lab/static/media/baling.bf6a3004349bbd38252b.webp",
+    "static/media/tiang-baling.webp": "/stfi-virtual-lab/static/media/tiang-baling.bca122a53c39ba885462.webp",
+    "main.74f68f23.css.map": "/stfi-virtual-lab/static/css/main.74f68f23.css.map",
+    "main.3b30d543.js.map": "/stfi-virtual-lab/static/js/main.3b30d543.js.map",
     "787.c33e2da5.chunk.js.map": "/stfi-virtual-lab/static/js/787.c33e2da5.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.24863322.css",
-    "static/js/main.92516542.js"
+    "static/css/main.74f68f23.css",
+    "static/js/main.3b30d543.js"
   ]
 }
